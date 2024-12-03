@@ -1,0 +1,9 @@
+@use '@styles/mixin.module.scss' as mixins;
+
+.btn {
+    @include mixins.btn(50px, 50px, #fff, 0px);
+}
+
+.btn2 {
+    @include mixins.btn(44px, 44px, #fff, 50%);
+}
